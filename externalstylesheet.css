@@ -1,0 +1,50 @@
+body {
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 25px;
+}
+
+h2 {
+  text-decoration: underline;
+
+}
+
+.image1{
+  -webkit-clip-path: polygon(0 1%, 0% 100%, 100% 50%);
+  clip-path: polygon(0 1%, 0% 100%, 100% 50%);
+  width: 48%;
+  float: left;
+
+}
+
+.image2{
+  width: 200px;
+  height: 60px;
+  float: right;
+}
+
+input[type=submit] {
+    width: 14em;  height: 6em;
+}
+
+input[type=checkbox] {
+    font-size: 16px;
+}
+
+div{
+  width: 48%;
+  float: right;
+}
+
+footer {
+  clear: both;
+  float: left;
+}
+
+.linkz {
+  font-size: 12px;
+}
